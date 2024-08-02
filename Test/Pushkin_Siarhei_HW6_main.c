@@ -1,3 +1,20 @@
+/**************************************************************
+* Class::  CSC-415-01 Summer 2024
+* Name:: Siarhei Pushkin
+* Student ID:: 922907437
+* GitHub-Name:: spushkin
+* Project:: Assignment 6 – Coding A Device Driver
+*
+* File:: Pushkin_Siarhei_HW6_main.c
+*
+* Description:: Test application for interacting with the 
+* my_device_driver. This application opens the device, sets an 
+* encryption key and mode using ioctl commands, and performs read 
+* and write operations to demonstrate the device's encryption and 
+* decryption capabilities. It serves as an example of how to use 
+* the driver from user space.
+**************************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>

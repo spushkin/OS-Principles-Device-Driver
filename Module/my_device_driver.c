@@ -1,3 +1,21 @@
+/**************************************************************
+* Class::  CSC-415-01 Summer 2024
+* Name:: Siarhei Pushkin
+* Student ID:: 922907437
+* GitHub-Name:: spushkin
+* Project:: Assignment 6 – Coding A Device Driver
+*
+* File:: my_device_driver.c
+*
+* Description:: A simple Linux device driver for encrypting and 
+* decrypting strings using a Caesar cipher. This module creates 
+* a character device that supports reading, writing, and ioctl 
+* operations for setting encryption keys and operation modes. 
+* It demonstrates basic kernel module functionality, including 
+* registering and unregistering a device, and handling user-space
+* interactions via file operations.
+**************************************************************/
+
 #include <linux/module.h>
 #include <linux/fs.h>
 #include <linux/uaccess.h>
