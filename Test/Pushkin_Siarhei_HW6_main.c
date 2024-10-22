@@ -1,7 +1,6 @@
 /**************************************************************
 * Class::  CSC-415-01 Summer 2024
 * Name:: Siarhei Pushkin
-* Student ID:: 922907437
 * GitHub-Name:: spushkin
 * Project:: Assignment 6 – Coding A Device Driver
 *
